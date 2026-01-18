@@ -1,7 +1,7 @@
 import axios, { type InternalAxiosRequestConfig } from "axios";
 
 const api = axios.create({
-    baseURL: "http://localhost:5000/api",
+    baseURL: "https://n2h-billing-backend.onrender.com/api",
     headers: {
         "Content-Type": "application/json",
     },
